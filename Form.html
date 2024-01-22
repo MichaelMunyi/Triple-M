@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form action="">
+    <legend>Student Information</legend>
+    <br><br>
+    <label for="fname">firstname:</label>
+    <input type="text" id="fname" placeholder="First name"required="">
+    <br><br>
+    <label for="sname">Surname :</label>
+    <input type="text" id="sname" placeholder="surname" required="">
+    <br><br>
+    <label for="email"> Email Adress</label>
+    <input type="email" id="email" placeholder="abc@gmail.com">
+    <br><br>
+    <label for="pwd">password</label>
+    <input type="password"id="pwd" placeholder="Type your password">
+    <br><br>
+    <p> choose a programming language :</p>
+    <input type="radio"id="python">
+    <label for="python">python</label>
+    <br>
+    <input type="radio" id="java">
+    <label for="java">java</label> <br>
+       <input type="radio" id="Html">
+    <label for="Html">Html</label> <br>
+    <br>
+
+    <p>Choose your favorite game</p>
+    <input type="checkbox"id="football">
+    <label for="football">football</label><br>
+    <input type="checkbox"id="hockey">
+    <label for="hockey">hockey</label> <br>
+    <input type="checkbox"id="tennis">
+    <label for="tennis">tennis</label><br><br><br>
+    <label for="course">select a course</label>
+    <select name="" id="course">
+        <option value="Choose" disabled="disabled">---choose course</option>
+        <option value="comp">Computer science</option>
+        <option value="eng">software engineering</option>
+        <option value="it">Information tecnology</option>
+        <option value="app comp"> Applied computer science</option>
+
+    </select>
+    <br><br>
+    <label for="type">Describe yourself</label>
+    <textarea name="" id="type" cols="30" rows="10" placeholder="Type here"></textarea>
+
+    <label for="file"> choose a file</label>
+    <input type="file" id="file" required="required">
+    <br><br>
+    <label for="Yob">year of birth</label>
+    <input type="date" id="Yob"> <br><br>
+
+    <button>Submit</button>
+
+
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+legend{
+    font-size: 30px;
+    font-family: "Arial Rounded MT Bold";
+color: #ffffff;
+  text-align: center;
+}
+form{
+    background-color: #00fff7;
+    margin: auto;
+    width: 50%;
+    padding-left: 30px;
+    border-radius: 30px;
+
+
+}
+input[type=text],input[type=date]{
+
+width: 50%;
+height: 50px;
+    margin: auto;
+padding-left: 30px;
+    background-color: #ffffff;
+
+                                                   }
+button{
+    width: 20%;
+height: 50px;
+color: black;
+    border-radius: 15px;
+margin-left: 150px;
+    background-color: #ffffff;
+
+}

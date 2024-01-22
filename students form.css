@@ -1,0 +1,23 @@
+form{
+
+margin: auto;
+background-color: #39398c;
+    width: 60%;
+    height:500px;
+    padding: 40px;
+padding-left: 140px;
+
+}
+input[type=name],input[type=email],input[type=password],input[type=phonenumber],input[type=language],input[type=zip code],input[type=about]{
+width: 50%;
+height: 140px;
+    }
+
+
+
+
+    label{
+        width: 20%;
+        display: inline-block;
+    }
+
